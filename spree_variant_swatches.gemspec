@@ -1,8 +1,8 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_variant_swatches'
-  s.version     = '2.4.5'
+  s.name        = 'solidusvariant_swatches'
+  s.version     = '1.0'
   s.summary     = 'Add color or image swatches to Spree variant options.'
   s.required_ruby_version = '>= 1.9.3'
 

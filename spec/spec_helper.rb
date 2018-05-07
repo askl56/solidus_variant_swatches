@@ -30,8 +30,8 @@ require 'spree/testing_support/controller_requests'
 require 'spree/testing_support/factories'
 require 'spree/testing_support/url_helpers'
 
-# Requires factories defined in lib/spree_variant_swatches/factories.rb
-require 'spree_variant_swatches/factories'
+# Requires factories defined in lib/solidus_variant_swatches/factories.rb
+require 'solidus_variant_swatches/factories'
 
 Dir["#{File.dirname(__FILE__)}/factories/**/*.rb"].each do |f|
   require File.expand_path(f)
