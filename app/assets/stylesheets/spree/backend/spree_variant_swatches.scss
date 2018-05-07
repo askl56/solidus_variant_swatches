@@ -1,0 +1,57 @@
+.swatch-field:disabled {
+  display: none;
+}
+
+.swatch-field--preview {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.tab-group--tab-container {
+  font-size: 0;
+  position: relative;
+}
+.tab-group--tab {
+  font-size: 0.8rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  cursor: pointer;
+  background: #ddd;
+  font-weight: bold;
+  border-right: 1px solid #999;
+  border-left: 1px solid #f7f7f7;
+}
+.tab-group--tab.is-active {
+  background: #555;
+  color: #fafafa;
+  border-color: #555;
+}
+.tab-group--option {
+  display: none;
+}
+
+.tab-group--content {
+  display: none;
+}
+input:checked + .tab-group--content {
+  display: block;
+}
+
+.preview-container {
+  position: relative;
+  display: inline-block;
+}
+.preview-container img {
+  max-width: 24px;
+}
+.preview-container.is-empty {
+  display: none;
+}
+.preview--remove {
+  opacity: 0;
+}
+.preview-container:hover .preview--remove {
+  opacity: 1;
+}

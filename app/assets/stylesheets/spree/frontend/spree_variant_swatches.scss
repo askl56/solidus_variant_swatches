@@ -1,0 +1,10 @@
+.swatch {
+  $swatch-size: 1em;
+  box-sizing: border-box;
+  display: inline-block;
+  width: $swatch-size;
+  height: $swatch-size;
+  padding-left: $swatch-size;
+  border-radius: 50%;
+  overflow: hidden;
+}
