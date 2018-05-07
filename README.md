@@ -1,38 +1,38 @@
-# SpreeVariantSwatches
+# SolidusVariantSwatches
 
-Spree Extension to add swatches to product option values. The swatches will be displayed on the product grid.
+Solidus Extension to add swatches to product option values. The swatches will be displayed on the product grid.
 
 ## Installation
 
-Add spree_variant_swatches to your Gemfile:
+Add solidus_variant_swatches to your Gemfile:
 
-    gem 'spree_variant_swatches'
+    gem 'solidus_variant_swatches'
 
 Bundle your dependencies and run the installation generator:
 
     bundle
-    bundle exec rails g spree_variant_swatches:install
+    bundle exec rails g solidus_variant_swatches:install
 
 ## Assets
 
 Assets are not included by default in the installation generator, due to the possibility of customized asset organization.
 
-To include the spree_variant_swatches assets, add:
+To include the solidus_variant_swatches assets, add:
 
 1. backend javascript  
 ie: `vendor/assets/javascripts/spree/backend/all.js`
 
-        //= require spree/backend/spree_variant_swatches
+        //= require spree/backend/solidus_variant_swatches
 
 2. backend stylesheets  
 ie: `vendor/assets/stylesheets/spree/backend/all.scss`
 
-        @import "spree/backend/spree_variant_swatches";
+        @import "spree/backend/solidus_variant_swatches";
 
 3. frontend stylesheets  
 ie: `vendor/assets/stylesheets/spree/frontend/all.scss`
 
-        @import "spree/frontend/spree_variant_swatches";
+        @import "spree/frontend/solidus_variant_swatches";
 
 ## Testing
 

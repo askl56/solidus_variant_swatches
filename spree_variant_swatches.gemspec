@@ -6,18 +6,19 @@ Gem::Specification.new do |s|
   s.summary     = 'Add color or image swatches to Spree variant options.'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'Gin Lane Media'
-  s.email     = 'devops@ginlane.com'
-  s.homepage  = 'http://ginlane.com'
+  s.author    = 'Andrew Scott'
+  s.email     = 'ams@keemail.me'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.4.5'
+  solidus_version = [">= 1.2.0", "< 3"]
 
-  s.add_development_dependency 'capybara', '~> 2.4'
+  s.add_dependency "solidus_core", solidus_version
+
+  s.add_development_dependency 'capybara'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_girl', '~> 4.5'
