@@ -1,8 +1,8 @@
-module SpreeVariantSwatches
+module SolidusVariantSwatches
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_variant_swatches'
+    engine_name 'solidus_variant_swatches'
 
     # use rspec for tests
     config.generators do |g|
